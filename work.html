@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work with us </title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+   
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="worknav">
+                <ul>
+                    <li id="homecare">HomeCare</li>
+                    <li id="workleft"><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Compliants</a></li>
+                   
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="work">
+        <form id="workform" action="work.php" method="post">
+        <pre>
+        <label >Full Name</label>
+        <input type="text" class="input" name="ename" required>
+
+        <label >Contact Number</label>
+        <input type="text" class="input" name="enumber" maxlength="10" required>
+
+        <label>Aadhar Number</label>
+        <input type="text" class="input" name="adno" maxlength="11" required>
+
+        <label>Enter Age</label>
+        <input type="text" class="input" name="age" maxlength="3" required>
+
+        <label for="s">Select Skill</label>
+        <select id="s" name="skill"required>
+            <option></option>
+            <option >Ac Repair</option>
+            <option >Plumber</option>
+            <option>Electrician</option>
+            <option>Applainces Repair</option>
+            <option>Carpenter</option>
+            <option>Painter</option>
+            <option>Maid</option>
+            <option>Driver</option>
+        </select>
+
+        <input id="rsub" type="submit" value="Register">    
+        </pre>
+        </form>
+    </div>
+</body>
+  

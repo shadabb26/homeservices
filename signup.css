@@ -1,0 +1,145 @@
+body {
+    font-family: 'Ubuntu';
+    margin: 5px;
+}
+
+.Signupform {
+    border: 2px solid rgb(255, 255, 255);
+    width: 403px;
+    margin: auto;
+    background-color: rgb(248, 248, 248);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 33px;
+    margin-top: 50px;
+    margin-left: 420px;
+}
+
+
+#sumbit {
+    width: 259px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    
+
+}
+
+#sumbit:hover {
+    font-size: 14px;
+    background-color:rgb(14, 245, 11);
+
+}
+
+
+.signupnav {
+    margin-top: 0px;
+    background-color: rgb(225, 223, 223);
+    border-radius: 20px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+
+li {
+
+    color: rgb(5, 5, 5);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.signupnav ul li a {
+    margin-top: 7px;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.signupnav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black
+}
+
+#signup {
+    margin: auto;
+    margin-right: 8px;
+}
+
+
+#email {
+    margin-top: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 75px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+#fullnm {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 75px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+#number {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 75px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+#cursive {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 14px;
+}
+
+#left {
+    margin-left: 509px;
+}
+
+#homecare {
+    font-size: 16px;
+    font-family: 'Cedarville Cursive', cursive;
+
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.signupnav ul li a:active {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 20px;
+    margin-top: -446px;
+    width: 832px;
+    height: 415px;
+}
+
+
+

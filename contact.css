@@ -1,0 +1,131 @@
+
+
+body{
+    margin: 5px 5px 5px 5px;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.contactnav{
+    background-color: rgb(225, 223, 223);
+    border-radius: 20px;
+    padding-bottom: 0px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+}
+li{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  
+}
+.contactnav ul li a{
+    margin-top: 7px;
+    text-decoration: none;
+    color:black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    
+   
+}
+
+.contactnav ul li a:hover{
+    background-color:black;
+    color:white;
+}
+.con{
+    margin: auto;
+    width: 800px;
+    border: 2px solid white;
+    margin-top: 20px;
+    background-color:rgb(225, 223, 223);
+    border-radius: 25px;
+    
+}
+.cemail{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+    width: 650px;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: 2px solid white;
+    
+   
+}
+#cp{
+    text-align: center;
+}
+#ce{
+    margin-top: 50px;
+}
+#sub{
+    margin: auto;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid  rgb(225, 223, 223);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+#sub2{
+    margin: auto;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid  rgb(225, 223, 223);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+#msg{
+    padding-bottom: 50px;
+}
+#sub:hover{
+    font-size: 14px;
+    background-color:rgb(14, 245, 11);
+}
+#sub2:hover{
+    font-size: 14px;
+    background-color:rgb(234, 15, 15);
+}
+
+#cparagraph{
+    text-align: center;
+    font-size: large;
+    margin-top: 25px;
+    border: 2px solid white;
+    background-color: rgb(225, 223, 223);
+    color: black;
+    border-radius: 15px;
+    margin-left:400px ;
+    margin-right:400px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#contactleft{
+    margin-left: 415px;
+   }
+
+#homecare{
+    font-size: 16px;
+    font-family: 'Cedarville Cursive',cursive;
+
+}
+footer{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#copywrite{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

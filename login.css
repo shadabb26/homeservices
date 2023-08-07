@@ -1,0 +1,132 @@
+body{
+        margin: 5px 5px 5px 5px;
+        font-family: 'Ubuntu', sans-serif;
+        
+}
+
+.loginnav{
+    background-color: rgb(225, 223, 223);
+    border-radius: 20px;
+    padding-bottom: 0px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+li{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  
+}
+.loginnav ul li a{
+    margin-top: 7px;
+    text-decoration: none;
+    color:black;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.loginnav ul li a:hover{
+    background-color:black;
+    color:white;
+    
+}
+
+#loginleft{
+    margin-left: 380px;
+   }
+
+
+
+
+.login{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    width:450px;
+    border: 2px solid white;
+    margin-top: 20px;
+    background-color:rgb(225, 223, 223);
+    border-radius: 15px;
+    
+}
+
+
+#sumbit{
+    width: 339px;
+    margin:auto;
+    padding-top:11px;
+    padding-bottom: 11px;
+    border-radius: 8px;
+    border: 2px solid  rgb(225, 223, 223);
+    margin-left: -2px;
+}
+
+#sumbit:hover{
+  background-color: rgb(14, 245, 11);
+}
+
+#username{
+    margin-top: 15px;
+    width: 200px;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-right: 130px;
+    border-radius: 4px;
+    border:2px solid white;
+}
+   
+#password{
+    width: 200px;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-right: 130px;
+    border: 2px solid white;
+    border-radius: 4px;
+    
+}
+#homecare{
+    font-size: 16px;
+    font-family: 'Cedarville Cursive',cursive;
+
+}
+#createacc{
+    text-align: center;
+    
+}
+#createacc a{
+    text-decoration: none;
+}
+#ml{
+    margin-top: 50px;
+   
+}
+.createacc{
+    padding: 2px;
+    background-color: rgb(225, 223, 223);
+    margin: auto;
+    width: 445px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+#mc{
+    margin-top: 10px;
+   
+}
+hr{
+
+    margin: auto;
+    width: 415px;
+}
+label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: small;
+}

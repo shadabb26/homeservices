@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HTML code for the payment form -->
+<form id="payment-form">
+    <h3>Select your services/products:</h3>
+    <input type="checkbox" name="service" value="50"> Service 1 ($50)<br>
+    <input type="checkbox" name="service" value="75"> Service 2 ($75)<br>
+    <input type="checkbox" name="service" value="100"> Service 3 ($100)<br>
+    <br>
+    <h3>Total: <span id="total">0</span></h3>
+    <button type="submit">viewCartS</button>
+  </form>
+  
+</body>
+<script>
+    // JavaScript code to calculate the total of selected services/products
+const form = document.getElementById("payment-form");
+const totalSpan = document.getElementById("total");
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const services = form.querySelectorAll('input[type="checkbox"][name="service"]:checked');
+  let total = 0;
+
+  for (let i = 0; i < services.length; i++) {
+    total += parseFloat(services[i].value);
+  }
+
+  totalSpan.textContent = `$${total}`;
+});
+
+</script>
+</html>
+  

@@ -1,0 +1,231 @@
+body{
+    margin: 5px 5px 5px 5px;
+    font-family: cursive;
+    
+}
+/*
+Login page CSS
+*/
+.login{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 285px;
+    margin: auto;
+    margin-top:-380px;
+    margin-right: 8px;
+    background-color:black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 33px;
+    
+}
+
+
+#sumbit{
+    width: 197px;
+    margin: auto;
+    padding-top:8px;
+    padding-bottom: 8px;
+    border: 2px solid  white;
+    border-radius: 4px;
+}
+
+#sumbit:hover{
+   font-size: 14px;
+}
+
+#username{
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+   
+#password{
+    padding-top:8px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+  border: 2px solid white;
+    border-radius: 4px;
+    
+}
+.con{
+    margin: auto;
+    width: 800px;
+    border: 2px solid white;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+.cemail{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+    width: 650px;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: 2px solid white;
+    
+   
+}
+#cp{
+    text-align: center;
+}
+#ce{
+    margin-top: 50px;
+}
+#sub{
+    margin: auto;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+#msg{
+    padding-bottom: 50px;
+}
+#sub:hover{
+    font-size: 14px;
+}
+#cparagraph{
+    text-align: center;
+    font-size: large;
+    margin-top: 35px;
+    font-family: 'Cedarville Cursive',cursive;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left:400px ;
+    margin-right:400px ;
+
+}
+
+img{
+    width: 860px;
+    height:400px;
+   
+    margin-top: 40px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+#cur{
+    font-family: 'Cedarville Cursive',cursive;
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+#signup{
+    margin: auto;
+    margin-right: 8px;
+}
+
+/* Home CSS*/
+#cursive{
+    font-family: 'Cedarville Cursive',cursive;
+    font-size: 14px;
+   
+}
+#left{
+    margin-left: 375px;
+   }
+.welcome{
+    text-align: center;
+    font-family: 'Cedarville Cursive',cursive;
+    border: 2px solid black;
+    margin-top: 30px;
+    background-color:black;
+    border-radius: 20px;
+ }
+#pwelcome{
+        color: white;
+}
+
+/* Contact page CSS */
+.con{
+    margin: auto;
+    width: 800px;
+    border: 2px solid white;
+    margin-top: 40px;
+    background-color: black;
+    border-radius: 25px;
+    
+}
+.cemail{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: auto;
+    width: 650px;
+    padding-right: 30px;
+    border-radius: 4px;
+    border: 2px solid white;
+    
+   
+}
+#cp{
+    text-align: center;
+}
+#ce{
+    margin-top: 50px;
+}
+#sub{
+    margin: auto;
+    width: 200px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+#msg{
+    padding-bottom: 50px;
+}
+#sub:hover{
+    font-size: 14px;
+}
+#cparagraph{
+    text-align: center;
+    font-size: large;
+    margin-top: 35px;
+    font-family: 'Cedarville Cursive',cursive;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left:400px ;
+    margin-right:400px ;
+
+}
+
+
+/* about page CSS */
+.pg{
+    font-size: large;
+    text-align: center;
+    font-family: 'Cedarville Cursive',cursive;
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 550px;
+    
+}
+#wel{
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
